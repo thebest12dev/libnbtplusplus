@@ -89,7 +89,4 @@ endif()
 install(TARGETS nbt++
     FILE_SET public_headers)
 
-if(NBT_BUILD_TESTS)
-    enable_testing()
-    add_subdirectory(test)
-endif()
+
